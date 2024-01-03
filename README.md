@@ -39,8 +39,8 @@ bash setup
 5. Before and After Repacking
 ![Result](/screenshot/beforeafter_repacking.jpg)
 
-###Credits
-#MRxBOT
-#Shahid Sindhi
-#Junaid Jagirani
+### Credits
+# MRxBOT
+# Shahid Sindhi
+# Junaid Jagirani
 ### Subscribe to my YouTube channel to get updated script 
