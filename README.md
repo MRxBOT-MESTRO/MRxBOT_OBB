@@ -15,13 +15,16 @@ pkg install git
 ```
 git clone https://github.com/MRxBOT-MESTRO/MRxBOT_OBB
 ```
-5. Open ThePAK directory and run setup.
+5. Open MRxBOT_OBB directory and run setup.
 ```
 cd MRxBOT_OBB
 chmod 775 setup
 bash setup
 ```
 6. Done.
+
+# OBB Path Info
+#### Put your OBB in `sdcard/Download/MRxBOT_OBB`
 
 ## Unpacking
 1. Run ```bash mrxbot```
