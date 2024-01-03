@@ -23,7 +23,7 @@ bash setup
 ```
 6. Done.
 
-# OBB Path Info
+## OBB Path Info
 #### Put your OBB in `sdcard/Download/MRxBOT_OBB`
 
 ## Unpacking
