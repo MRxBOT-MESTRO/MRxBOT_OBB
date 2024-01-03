@@ -10,7 +10,7 @@ chmod +x etc/*.bms
 if [[ -d "/sdcard/Download/MRxBOT_obb" ]]; then
   echo ""
 else
-  mkdir /sdcard/Download/dir_pak
+  mkdir /sdcard/Download/MRxBOT_obb
 fi
 
    pak_folder="/data/data/com.termux/files/home/PakTool/pak_folder"
