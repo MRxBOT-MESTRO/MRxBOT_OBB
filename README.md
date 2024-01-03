@@ -13,7 +13,7 @@ pkg install git
 ```
 4. Clone this repository
 ```
-git clone [https://github.com/MRxBOT-MESTRO/MRxBOT_OBB]
+git clone https://github.com/MRxBOT-MESTRO/MRxBOT_OBB
 ```
 5. Open ThePAK directory and run setup.
 ```
