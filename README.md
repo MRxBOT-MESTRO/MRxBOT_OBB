@@ -18,20 +18,20 @@ git clone https://github.com/MRxBOT-MESTRO/MRxBOT_OBB
 5. Open ThePAK directory and run setup.
 ```
 cd MRxBOT_OBB
-chmod +× setup
+chmod 775 setup
 bash setup
 ```
 6. Done.
 
 ## Unpacking
-1. Run `bash mrxbot`
+1. Run ```bash mrxbot```
 2. Select option 1
 3. Select your pak file
 4. And the result will be like this
 ![Result](/screenshot/complete_extraction.jpg)
 
 ## Repacking
-1. Run `bash mrxbot`
+1. Run ```bash mrxbot```
 2. Select option 2
 3. Select your pak file
 4. And the result will be like this
