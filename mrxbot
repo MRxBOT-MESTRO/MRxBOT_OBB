@@ -1,1 +1,186 @@
-IyEvdXNyL2Jpbi9lbnYgYmFzaAoKc291cmNlIGV0Yy9iYW5uZXIKCmVjaG8gLWUgImV4ZWN1dGluZzogJHtMSUdIVEdSRUVOfSAgICAgICAgICBNUnhCT1QgT0JCIFRPT0wke05PQ09MT1J9IgplY2hvICItLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tIgoKY2htb2QgK3ggZXRjLyouYm1zCgppZiBbWyAtZCAiL3NkY2FyZC9Eb3dubG9hZC9NUnhCT1Rfb2JiIiBdXTsgdGhlbgogIGVjaG8gIiIKZWxzZQogIG1rZGlyIC9zZGNhcmQvRG93bmxvYWQvTVJ4Qk9UX29iYgpmaQoKICAgcGFrX2ZvbGRlcj0iL2RhdGEvZGF0YS9jb20udGVybXV4L2ZpbGVzL2hvbWUvUGFrVG9vbC9wYWtfZm9sZGVyIgogICBvdXRwdXRfZm9sZGVyPSIvZGF0YS9kYXRhL2NvbS50ZXJtdXgvZmlsZXMvaG9tZS9QYWtUb29sL291dHB1dF9mb2xkZXIiCgogdW5wYWNraW5nICgpIHsKICBxZW11LWkzODYgJFBSRUZJWC9zaGFyZS9xdWlja2Jtcy9xdWlja2Jtc180Z2JfZmlsZXMgZXRjLyouYm1zICRwYWtfZm9sZGVyLyQoYmFzZW5hbWUgIiRzZWxlY3RlZF9maWxlIikgJG91dHB1dF9mb2xkZXIKfQoKICAgcmVwYWNraW5nICgpIHsKICAgcWVtdS1pMzg2ICRQUkVGSVgvc2hhcmUvcXVpY2tibXMvcXVpY2tibXNfNGdiX2ZpbGVzIC13IC1yIGV0Yy8qLmJtcyAkc2VsZWN0ZWRfZmlsZSAvc2RjYXJkL0Rvd25sb2FkL2NvcGllZF9kYXQKfQoKIGZ1bmN0aW9uIHVucGFjayB7CiAgIHByb21wdD0iUGxlYXNlIHNlbGVjdCBhIGZpbGUgdG8gdW5wYWNrOiIKICAgb3B0aW9ucz0oJChmaW5kIC9zZGNhcmQvRG93bmxvYWQvTVJ4Qk9UX29iYiAtbmFtZSAiKi5wYWsiIC1vIC1uYW1lICIqLm9iYiIpKQoKICAgUFMzPSIkcHJvbXB0ICIKICAgc2VsZWN0IG9wdCBpbiAiJHtvcHRpb25zW0BdfSIgIlF1aXQiIDsgZG8gCiAgICAgICBpZiAoKCBSRVBMWSA9PSAxICsgJHsjb3B0aW9uc1tAXX0gKSkgOyB0aGVuCiAgICAgICAgICAgZWNobyAiT3BlcmF0aW9uIGNhbmNlbGVkLiIKICAgICAgICAgICBleGl0CgogICAgICAgZWxpZiAoKCBSRVBMWSA+IDAgJiYgUkVQTFkgPD0gJHsjb3B0aW9uc1tAXX0gKSkgOyB0aGVuCiAgICAgICAgICAgc2VsZWN0ZWRfZmlsZT0iJHtvcHRpb25zWyRSRVBMWS0xXX0iCiAgICAgICAgICAgZWNobyAiWW91IHBpY2tlZCAkc2VsZWN0ZWRfZmlsZSB3aGljaCBpcyBmaWxlICRSRVBMWSIKCiAgICAgICAgICAgbWtkaXIgLXAgIiRwYWtfZm9sZGVyIgogICAgICAgICAgIGNwICIkc2VsZWN0ZWRfZmlsZSIgIiRwYWtfZm9sZGVyLyIKICAgICAgICAgICAKICAgICAgICAgICB1bnBhY2tpbmcKICAgICAgICAgICAKICAgICAgICAgICBybSAtcmYgJHBha19mb2xkZXIKICAgICAgICAgICAKICAgICAgICAgICBicmVhawoKICAgICAgIGVsc2UKICAgICAgICAgICBlY2hvICJJbnZhbGlkIG9wdGlvbi4gVHJ5IGFub3RoZXIgb25lLiIKICAgICAgIGZpCiAgIGRvbmUKfQoKIGZ1bmN0aW9uIHJlcGFjayB7CiAgcHJvbXB0PSJQbGVhc2Ugc2VsZWN0IGEgZmlsZSB0byByZXBhY2s6IgogIG9wdGlvbnM9KCQoZmluZCAvc2RjYXJkL0Rvd25sb2FkL01SeEJPVF9vYmIgLW5hbWUgIioucGFrIiAtbyAtbmFtZSAiKi5vYmIiKSkKCiAgUFMzPSIkcHJvbXB0ICIKICBzZWxlY3Qgb3B0IGluICIke29wdGlvbnNbQF19IiAiUXVpdCIgOyBkbyAKICAgICAgaWYgKCggUkVQTFkgPT0gMSArICR7I29wdGlvbnNbQF19ICkpIDsgdGhlbgogICAgICAgICAgZWNobyAiT3BlcmF0aW9uIGNhbmNlbGVkLiIKICAgICAgICAgIGV4aXQKCiAgICAgIGVsaWYgKCggUkVQTFkgPiAwICYmIFJFUExZIDw9ICR7I29wdGlvbnNbQF19ICkpIDsgdGhlbgogICAgICAgICAgc2VsZWN0ZWRfZmlsZT0iJHtvcHRpb25zWyRSRVBMWS0xXX0iCiAgICAgICAgICBlY2hvICJZb3UgcGlja2VkICRzZWxlY3RlZF9maWxlIHdoaWNoIGlzIGZpbGUgJFJFUExZIgogICAgICAgICAgCiAgICAgICAgICByZXBhY2tpbmcKICAgICAgICAgIAogICAgICAgICAgYnJlYWsKCiAgICAgIGVsc2UKICAgICAgICAgIGVjaG8gIkludmFsaWQgb3B0aW9uLiBUcnkgYW5vdGhlciBvbmUuIgogICAgICBmaQogIGRvbmUKfQoKIGZ1bmN0aW9uIFNlYXJjaF9UZXh0IHsKICByZWFkIC1wICJFbnRlciB0aGUgc3RyaW5nIHRvIHNlYXJjaCBmb3I6ICIgc2VhcmNoX3N0cmluZwogIAogIHNlYXJjaF9yZXN1bHRzPSggJChncmVwIC1yaWwgIiRzZWFyY2hfc3RyaW5nIiAkb3V0cHV0X2ZvbGRlcikgKQoKICAgICAgaWYgWyAkeyNzZWFyY2hfcmVzdWx0c1tAXX0gLWVxIDAgXTsgdGhlbgogICAgZWNobyAiTm8gbWF0Y2hpbmcgZmlsZXMgZm91bmQuIgogIGVsc2UKICAgIGVjaG8gIk1hdGNoaW5nIGZpbGVzOiIKICAgIGZvciAoKGk9MDsgaTwkeyNzZWFyY2hfcmVzdWx0c1tAXX07IGkrKykpOyBkbwogICAgICAKICAgICAgaWYgWyAkaSAtZXEgMCBdOyB0aGVuCiAgICAgICAgZWNobyAtZSAiXGVbMzJtJCgoJGkrMSkpOiAkKGJhc2VuYW1lICIke3NlYXJjaF9yZXN1bHRzWyRpXX0iKVxlWzBtIgogICAgICBlbHNlCiAgICAgICAgZWNobyAiJCgoJGkrMSkpOiAkKGJhc2VuYW1lICIke3NlYXJjaF9yZXN1bHRzWyRpXX0iKSIKICAgICAgZmkKICAgIGRvbmUKCiAgICBhbGxfZmlsZXNfb3B0aW9uPSJBbGwiCiAgICBxdWl0X29wdGlvbj0iUXVpdCIKICAgIGNvcHlfYWxsX29wdGlvbj0iQ29weSBBbGwiCiAgICBvcHRpb25zPSgiU2VsZWN0IE9uZSIgIiRhbGxfZmlsZXNfb3B0aW9uIiAiJGNvcHlfYWxsX29wdGlvbiIgIiRxdWl0X29wdGlvbiIpCiAgICBzZWxlY3RlZF9maWxlcz0oKQoKICAgIHdoaWxlIHRydWU7IGRvCiAgICAgIHJlYWQgLXAgIkVudGVyIGZpbGUgbnVtYmVycyB0byBhZGQgdG8gdGhlIHNlbGVjdGlvbiAoZS5nLiwgMiw1LDYsNCksICdhJyB0byBzZWxlY3QgYWxsLCBvciAncScgdG8gcXVpdDogIiBjaG9pY2UKCiAgICAgIGlmIFsgIiRjaG9pY2UiID0gInEiIF07IHRoZW4KICAgICAgICBlY2hvICJPcGVyYXRpb24gY2FuY2VsZWQuIgogICAgICAgIGJyZWFrCiAgICAgIGVsaWYgWyAiJGNob2ljZSIgPSAiYSIgXTsgdGhlbgogICAgICAgIHNlbGVjdGVkX2ZpbGVzPSgiJHtzZWFyY2hfcmVzdWx0c1tAXX0iKQogICAgICAgIGVjaG8gIkFsbCBmaWxlcyBzZWxlY3RlZC4iCiAgICAgICAgYnJlYWsKICAgICAgZWxzZQogICAgICAgIElGUz0nLCcgcmVhZCAtcmEgZmlsZV9udW1iZXJzIDw8PCAiJGNob2ljZSIKCiAgICAgICAgZm9yIG51bSBpbiAiJHtmaWxlX251bWJlcnNbQF19IjsgZG8KICAgICAgICAgIGlmIFsgIiRudW0iIC1nZSAxIF0gJiYgWyAiJG51bSIgLWxlICR7I3NlYXJjaF9yZXN1bHRzW0BdfSBdOyB0aGVuCiAgICAgICAgICAgIHNlbGVjdGVkX2ZpbGVzKz0oIiR7c2VhcmNoX3Jlc3VsdHNbJCgobnVtLTEpKV19IikKICAgICAgICAgICAgZWNobyAiRmlsZSAnJChiYXNlbmFtZSAiJHtzZWFyY2hfcmVzdWx0c1skKChudW0tMSkpXX0iKScgYWRkZWQgdG8gc2VsZWN0aW9uLiIKICAgICAgICAgIGVsc2UKICAgICAgICAgICAgZWNobyAiSW52YWxpZCBmaWxlIG51bWJlciAnJG51bScuIFRyeSBhbm90aGVyIG9uZS4iCiAgICAgICAgICBmaQogICAgICAgIGRvbmUKICAgICAgZmkKICAgIGRvbmUKCiAgICBpZiBbICIkeyNzZWxlY3RlZF9maWxlc1tAXX0iIC1lcSAwIF07IHRoZW4KICAgICAgZWNobyAiTm8gZmlsZXMgc2VsZWN0ZWQgZm9yIGNvcHlpbmcuIgogICAgZWxzZQogICAgICBlY2hvICJTZWxlY3RlZCBmaWxlczoiCiAgICAgIGZvciBmaWxlIGluICIke3NlbGVjdGVkX2ZpbGVzW0BdfSI7IGRvCiAgICAgICAgZWNobyAiLSAkKGJhc2VuYW1lICIkZmlsZSIpIgogICAgICBkb25lCgogICAgICBjb3BpZWRfZGF0PSIvc2RjYXJkL0Rvd25sb2FkL2NvcGllZF9kYXQiCiAgICAgIGlmIFsgISAtZCAiJGNvcGllZF9kYXQiIF07IHRoZW4KICAgICAgICBta2RpciAtcCAiJGNvcGllZF9kYXQiCiAgICAgICAgZWNobyAiQ3JlYXRlZCBkaXJlY3RvcnkgJyRjb3BpZWRfZGF0Jy4iCiAgICAgIGZpCgogICAgICByZWFkIC1wICJFbnRlciAnYycgdG8gY29weSBhbGwgc2VsZWN0ZWQgZmlsZXMgb3IgJ3EnIHRvIHF1aXQ6ICIgY29weV9vcHRpb24KICAgICAgaWYgWyAiJGNvcHlfb3B0aW9uIiA9ICJjIiBdOyB0aGVuCiAgICAgICAgZm9yIGZpbGUgaW4gIiR7c2VsZWN0ZWRfZmlsZXNbQF19IjsgZG8KICAgICAgICAgIGNwICIkZmlsZSIgIiRjb3BpZWRfZGF0LyIKICAgICAgICAgIGVjaG8gIkZpbGUgJyQoYmFzZW5hbWUgIiRmaWxlIiknIGNvcGllZCB0byB0aGUgZGVzdGluYXRpb24gZGlyZWN0b3J5LiIKICAgICAgICBkb25lCiAgICAgIGVsc2UKICAgICAgICBlY2hvICJPcGVyYXRpb24gY2FuY2VsZWQuIgogICAgICBmaQogICAgZmkKICBmaQp9CgogIGZ1bmN0aW9uIEVycm9yX0ZpeCB7CiAgaWYgW1sgLWQgIiRvdXRwdXRfZm9sZGVyIiBdXTsgdGhlbgogICAgcm0gLXJmICIkb3V0cHV0X2ZvbGRlciIKICBlbHNlCiAgICBiYXNoIGJvdHRvb2wKICBmaQp9CgpQUzM9J1BsZWFzZSBlbnRlciB5b3VyIGNob2ljZTogJwpvcHRpb25zPSgiVW5wYWNrIiAiUmVwYWNrIiAiU2VhcmNoX1RleHQiICJFcnJvcl9GaXgiICJRdWl0IikKc2VsZWN0IG9wdCBpbiAiJHtvcHRpb25zW0BdfSIKZG8KICBjYXNlICRvcHQgaW4KICAgICJVbnBhY2siKQogICAgICB1bnBhY2sKICAgICAgYnJlYWsKICAgICAgOzsKICAgICJSZXBhY2siKQogICAgICByZXBhY2sKICAgICAgOzsKICAgICJTZWFyY2hfVGV4dCIpCiAgICAgIFNlYXJjaF9UZXh0CiAgICAgIDs7CiAgICAiRXJyb3JfRml4IikKICAgICAgRXJyb3JfRml4CiAgICAgIDs7CiAgICAiUXVpdCIpCiAgICAgIGJyZWFrCiAgICAgIDs7CiAgICAqKSBlY2hvICJpbnZhbGlkIG9wdGlvbiAkUkVQTFkiOzsKICBlc2FjCmRvbmUK
+#!/usr/bin/env bash
+
+source etc/banner
+
+echo -e "executing: ${LIGHTGREEN}          MRxBOT OBB TOOL${NOCOLOR}"
+echo "----------------------------"
+
+chmod +x etc/*.bms
+
+if [[ -d "/sdcard/Download/MRxBOT_obb" ]]; then
+  echo ""
+else
+  mkdir /sdcard/Download/MRxBOT_obb
+fi
+
+   pak_folder="/data/data/com.termux/files/home/PakTool/pak_folder"
+   output_folder="/data/data/com.termux/files/home/PakTool/output_folder"
+
+ unpacking () {
+  qemu-i386 $PREFIX/share/quickbms/quickbms_4gb_files etc/*.bms $pak_folder/$(basename "$selected_file") $output_folder
+}
+
+   repacking () {
+   qemu-i386 $PREFIX/share/quickbms/quickbms_4gb_files -w -r etc/*.bms $selected_file /sdcard/Download/copied_dat
+}
+
+ function unpack {
+   prompt="Please select a file to unpack:"
+   options=($(find /sdcard/Download/MRxBOT_obb -name "*.pak" -o -name "*.obb"))
+
+   PS3="$prompt "
+   select opt in "${options[@]}" "Quit" ; do 
+       if (( REPLY == 1 + ${#options[@]} )) ; then
+           echo "Operation canceled."
+           exit
+
+       elif (( REPLY > 0 && REPLY <= ${#options[@]} )) ; then
+           selected_file="${options[$REPLY-1]}"
+           echo "You picked $selected_file which is file $REPLY"
+
+           mkdir -p "$pak_folder"
+           cp "$selected_file" "$pak_folder/"
+           
+           unpacking
+           
+           rm -rf $pak_folder
+           
+           break
+
+       else
+           echo "Invalid option. Try another one."
+       fi
+   done
+}
+
+ function repack {
+  prompt="Please select a file to repack:"
+  options=($(find /sdcard/Download/MRxBOT_obb -name "*.pak" -o -name "*.obb"))
+
+  PS3="$prompt "
+  select opt in "${options[@]}" "Quit" ; do 
+      if (( REPLY == 1 + ${#options[@]} )) ; then
+          echo "Operation canceled."
+          exit
+
+      elif (( REPLY > 0 && REPLY <= ${#options[@]} )) ; then
+          selected_file="${options[$REPLY-1]}"
+          echo "You picked $selected_file which is file $REPLY"
+          
+          repacking
+          
+          break
+
+      else
+          echo "Invalid option. Try another one."
+      fi
+  done
+}
+
+ function Search_Text {
+  read -p "Enter the string to search for: " search_string
+  
+  search_results=( $(grep -ril "$search_string" $output_folder) )
+
+      if [ ${#search_results[@]} -eq 0 ]; then
+    echo "No matching files found."
+  else
+    echo "Matching files:"
+    for ((i=0; i<${#search_results[@]}; i++)); do
+      
+      if [ $i -eq 0 ]; then
+        echo -e "\e[32m$(($i+1)): $(basename "${search_results[$i]}")\e[0m"
+      else
+        echo "$(($i+1)): $(basename "${search_results[$i]}")"
+      fi
+    done
+
+    all_files_option="All"
+    quit_option="Quit"
+    copy_all_option="Copy All"
+    options=("Select One" "$all_files_option" "$copy_all_option" "$quit_option")
+    selected_files=()
+
+    while true; do
+      read -p "Enter file numbers to add to the selection (e.g., 2,5,6,4), 'a' to select all, or 'q' to quit: " choice
+
+      if [ "$choice" = "q" ]; then
+        echo "Operation canceled."
+        break
+      elif [ "$choice" = "a" ]; then
+        selected_files=("${search_results[@]}")
+        echo "All files selected."
+        break
+      else
+        IFS=',' read -ra file_numbers <<< "$choice"
+
+        for num in "${file_numbers[@]}"; do
+          if [ "$num" -ge 1 ] && [ "$num" -le ${#search_results[@]} ]; then
+            selected_files+=("${search_results[$((num-1))]}")
+            echo "File '$(basename "${search_results[$((num-1))]}")' added to selection."
+          else
+            echo "Invalid file number '$num'. Try another one."
+          fi
+        done
+      fi
+    done
+
+    if [ "${#selected_files[@]}" -eq 0 ]; then
+      echo "No files selected for copying."
+    else
+      echo "Selected files:"
+      for file in "${selected_files[@]}"; do
+        echo "- $(basename "$file")"
+      done
+
+      copied_dat="/sdcard/Download/copied_dat"
+      if [ ! -d "$copied_dat" ]; then
+        mkdir -p "$copied_dat"
+        echo "Created directory '$copied_dat'."
+      fi
+
+      read -p "Enter 'c' to copy all selected files or 'q' to quit: " copy_option
+      if [ "$copy_option" = "c" ]; then
+        for file in "${selected_files[@]}"; do
+          cp "$file" "$copied_dat/"
+          echo "File '$(basename "$file")' copied to the destination directory."
+        done
+      else
+        echo "Operation canceled."
+      fi
+    fi
+  fi
+}
+
+  function Error_Fix {
+  if [[ -d "$output_folder" ]]; then
+    rm -rf "$output_folder"
+  else
+    bash bottool
+  fi
+}
+
+PS3='Please enter your choice: '
+options=("Unpack" "Repack" "Search_Text" "Error_Fix" "Quit")
+select opt in "${options[@]}"
+do
+  case $opt in
+    "Unpack")
+      unpack
+      break
+      ;;
+    "Repack")
+      repack
+      ;;
+    "Search_Text")
+      Search_Text
+      ;;
+    "Error_Fix")
+      Error_Fix
+      ;;
+    "Quit")
+      break
+      ;;
+    *) echo "invalid option $REPLY";;
+  esac
+done
