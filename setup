@@ -1,3 +1,71 @@
-#Modified by @JunaidJagirani And Shahid Sindhi
+#Modified by @JunaidJagirani
+#!/bin/bash
 
-IyEvYmluL2Jhc2gKCnNvdXJjZSBldGMvYmFubmVyCgplY2hvIC1lICJleGVjdXRpbmc6ICR7TElHSFRHUkVFTn1TRVRVUCR7Tk9DT0xPUn0iCmVjaG8gIi0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0iCgpxdWlja2Jtc19kaXI9JFBSRUZJWC9zaGFyZS9xdWlja2JtcwoKZnVuY3Rpb24gcmVkaXJlY3QgewogZWNobyAtZSAiJHtMSUdIVEdSRUVOfVNUQVJUSU5HIE1SeEJPVCR7Tk9DT0xPUn0iCiBlY2hvIC1uZSAnIyMjIyMgICAgICAgICAgICAgICAgICAgICAoMzMlKVxyJwogc2xlZXAgMQogZWNobyAtbmUgJyMjIyMjIyMjIyMjIyMgICAgICAgICAgICAgKDY2JSlccicKIHNsZWVwIDEKIGVjaG8gLW5lICcjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyAgICgxMDAlKVxyJwogZWNobyAtbmUgJ1xuJwogY2htb2QgK3ggYm90dG9vbAogbXYgYm90dG9vbCAvZGF0YS9kYXRhL2NvbS50ZXJtdXgvZmlsZXMvdXNyL2JpbgogY2htb2QgK3ggbXJ4Ym90CiBiYXNoIG1yeGJvdAp9CgpmdW5jdGlvbiBxdWlja2Jtc19jaGVjayB7CiAgZWNobyAtZSAiJHtZRUxMT1d9Q2hlY2tpbmcgcmVxdWlyZWQgcHJvZ3JhbS4uJHtOT0NPTE9SfSIKICBGSUxFPSRxdWlja2Jtc19kaXIvcXVpY2tibXNfNGdiX2ZpbGVzCiAgaWYgWyAtZiAiJEZJTEUiIF07IHRoZW4KICAgICAgZWNobyAtZSAiJHtMSUdIVEdSRUVOfVByb2dyYW0gaGFzIGJlZW4gaW5zdGFsbGVkLiR7Tk9DT0xPUn0iCiAgICAgIHJlZGlyZWN0CiAgZWxzZSAKICAgICAgZWNobyAtZSAiJHtSRUR9UFJPR1JBTSBOT1QgRk9VTkQuJHtOT0NPTE9SfSIKICAgICAgcXVpY2tibXNfaW5zdGFsbAogICAgICByZWRpcmVjdAogIGZpCn0KCmZ1bmN0aW9uIHF1aWNrYm1zX2luc3RhbGwgewogIGVjaG8gLWUgIiR7TElHSFRHUkVFTn1JbnN0YWxsaW5nIHJlcXVpcmVkIHByb2dyYW0uLiR7Tk9DT0xPUn0iCiAgc2xlZXAgMQogIHdnZXQgaHR0cDovL2FsdWlnaS5hbHRlcnZpc3RhLm9yZy9wYXBlcnMvcXVpY2tibXNfbGludXguemlwCiAgc2xlZXAgMQogIHVuemlwIHF1aWNrYm1zX2xpbnV4LnppcAogIHNsZWVwIDEKICBta2RpciAkcXVpY2tibXNfZGlyCiAgc2xlZXAgMQogIGNobW9kICt4IHF1aWNrYm1zXzRnYl9maWxlcyBxdWlja2JtcwogIHNsZWVwIDEKICBjcCBxdWlja2Jtc180Z2JfZmlsZXMgcXVpY2tibXMgICRxdWlja2Jtc19kaXIKICBzbGVlcCAxCiAgcm0gLXJmIHF1aWNrYm1zKgogIHNsZWVwIDEKICBjaG1vZCAreCBldGMvKi5ibXMKfQoKZWNobyAtZSAiJHtZRUxMT1d9Q2hlY2tpbmcgUmVxdWlyZWQgcGFja2FnZXMke05PQ09MT1J9IgoKcGFja2FnZXM9KCJ3Z2V0IiAidW56aXAiICJjdXJsIiAieDExLXJlcG8iICJxZW11LXN5c3RlbS1pMzg2IiAicWVtdS11c2VyLWkzODYiKQoKZm9yIHBrZyBpbiAke3BhY2thZ2VzW0BdfTsgZG8KCiAgICBpc19wa2dfaW5zdGFsbGVkPSQoZHBrZy1xdWVyeSAtVyAtLXNob3dmb3JtYXQ9JyR7U3RhdHVzfVxuJyAke3BrZ30gfCBncmVwICJpbnN0YWxsIG9rIGluc3RhbGxlZCIpCgogICAgaWYgWyAiJHtpc19wa2dfaW5zdGFsbGVkfSIgPT0gImluc3RhbGwgb2sgaW5zdGFsbGVkIiBdOyB0aGVuCiAgICAgICAgZWNobyAtZSAke0dSRUVOfSR7cGtnfSR7Tk9DT0xPUn0gaXMgaW5zdGFsbGVkLgogICAgZWxzZSBbICIiID0gIiR7aXNfcGtnX2luc3RhbGxlZH0iIF07CiAgICAgZWNobyAtZSAiJHtSRUR9Tm8gJHtwa2d9LiBTZXR0aW5nIHVwICR7cGtnfS4ke05PQ09MT1J9IiAKICAgIHBrZyBpbnN0YWxsICR7cGtnfSAteQogICAgZmkKZG9uZQpxdWlja2Jtc19jaGVjawo=
+source etc/banner
+
+echo -e "executing: ${LIGHTGREEN}SETUP${NOCOLOR}"
+echo "----------------------------"
+
+quickbms_dir=$PREFIX/share/quickbms
+
+function redirect {
+ echo -e "${LIGHTGREEN}STARTING MRxBOT${NOCOLOR}"
+ echo -ne '#####                     (33%)\r'
+ sleep 1
+ echo -ne '#############             (66%)\r'
+ sleep 1
+ echo -ne '#######################   (100%)\r'
+ echo -ne '\n'
+ chmod +x bottool
+ mv bottool /data/data/com.termux/files/usr/bin
+ chmod +x mrxbot
+ bash mrxbot
+}
+
+function quickbms_check {
+  echo -e "${YELLOW}Checking required program..${NOCOLOR}"
+  FILE=$quickbms_dir/quickbms_4gb_files
+  if [ -f "$FILE" ]; then
+      echo -e "${LIGHTGREEN}Program has been installed.${NOCOLOR}"
+      redirect
+  else 
+      echo -e "${RED}PROGRAM NOT FOUND.${NOCOLOR}"
+      quickbms_install
+      redirect
+  fi
+}
+
+function quickbms_install {
+  echo -e "${LIGHTGREEN}Installing required program..${NOCOLOR}"
+  sleep 1
+  wget http://aluigi.altervista.org/papers/quickbms_linux.zip
+  sleep 1
+  unzip quickbms_linux.zip
+  sleep 1
+  mkdir $quickbms_dir
+  sleep 1
+  chmod +x quickbms_4gb_files quickbms
+  sleep 1
+  cp quickbms_4gb_files quickbms  $quickbms_dir
+  sleep 1
+  rm -rf quickbms*
+  sleep 1
+  chmod +x etc/*.bms
+}
+
+echo -e "${YELLOW}Checking Required packages${NOCOLOR}"
+
+packages=("wget" "unzip" "curl" "x11-repo" "qemu-system-i386" "qemu-user-i386")
+
+for pkg in ${packages[@]}; do
+
+    is_pkg_installed=$(dpkg-query -W --showformat='${Status}\n' ${pkg} | grep "install ok installed")
+
+    if [ "${is_pkg_installed}" == "install ok installed" ]; then
+        echo -e ${GREEN}${pkg}${NOCOLOR} is installed.
+    else [ "" = "${is_pkg_installed}" ];
+     echo -e "${RED}No ${pkg}. Setting up ${pkg}.${NOCOLOR}" 
+    pkg install ${pkg} -y
+    fi
+done
+quickbms_check
